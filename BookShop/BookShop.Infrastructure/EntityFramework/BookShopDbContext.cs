@@ -39,12 +39,7 @@ namespace BookShop.Infrastructure.EntityFramework
         {
             return Set<Shop>().Include(x => x.Books).SingleOrDefaultAsync(shop => shop.Id == shopId);
         }
-      
-        public Task<Book> GetBook(long id)
-        {
-            return Set<Book>().SingleOrDefaultAsync(book => book.Id == id);
-        }
-
+     
         public async Task<List<Shop>> GetShops()
         {
             return await Set<Shop>().Include(x => x.Books).ToListAsync();

@@ -44,5 +44,12 @@ namespace BookShop.Infrastructure.EntityFramework
         {
             return await Set<Shop>().Include(x => x.Books).ToListAsync();
         }
+        
+        public async Task Clear()
+        {
+            var shops = await Set<Shop>().ToListAsync();
+            Set<Shop>().RemoveRange(shops);
+            await SaveChangesAsync();
+        }
     }
 }

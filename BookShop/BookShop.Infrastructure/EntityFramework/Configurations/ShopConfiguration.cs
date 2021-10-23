@@ -14,7 +14,8 @@ namespace BookShop.Infrastructure.EntityFramework.Configurations
 
             builder.HasMany(x => x.Books)
                 .WithOne(x => x.Shop)
-                .HasForeignKey(x => x.ShopId);
+                .HasForeignKey(x => x.ShopId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

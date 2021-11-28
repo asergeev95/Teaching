@@ -6,17 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5b532305-c133-41aa-b75e-0b30cdb7ecb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookShop.ApplicationServices/BookShop.ApplicationServices.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop.ApplicationServices/BookShop.ApplicationServices.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookShop.ApplicationServices/BookShopService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop.ApplicationServices/BookShopService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookShop.Core/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop.Core/Book.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookShop.Core/Shop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop.Core/Shop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop.Core/Models/AddBookModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop.Core/Models/AddBookModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop.Core/Models/UpdateBookModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop.Core/Models/UpdateBookModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookShop.Infrastructure/EntityFramework/BookShopDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop.Infrastructure/EntityFramework/BookShopDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookShop/BookShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/BookShop.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookShop/Controllers/BookShopController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/Controllers/BookShopController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookShop/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookShop/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookShop/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookShop/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +31,13 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D4D0BFB3-33ED-418B-8EC2-AEFE5EF745F4/402/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F758DD2F-9E4C-41A0-B7A1-63138D66F75D/8/ServiceCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FB544B1C-B1F0-4EA3-B2F7-F4DE55167B93/6B/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D4D0BFB3-33ED-418B-8EC2-AEFE5EF745F4/0/IList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D4D0BFB3-33ED-418B-8EC2-AEFE5EF745F4/0/IEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Attributes/TestFixtureAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D4D0BFB3-33ED-418B-8EC2-AEFE5EF745F4/0/ICollection.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -52,7 +54,6 @@
       <option value="$PROJECT_DIR$/BookShop.Infrastructure/BookShopContextContextDesignTimeFactory.cs" />
       <option value="$PROJECT_DIR$/BookShop.Infrastructure/EntityFramework/BookShopContextDesignTimeFactory.cs" />
       <option value="$PROJECT_DIR$/BookShop.Core/Document.cs" />
-      <option value="$PROJECT_DIR$/BookShop.Infrastructure/EntityFramework/Configurations/ShopConfiguration.cs" />
       <option value="$PROJECT_DIR$/BookShop.Infrastructure/EntityFramework/Configurations/BookConfiguration.cs" />
       <option value="$PROJECT_DIR$/BookShop.Infrastructure/EntityFramework/BookShopContextDbContextFactory.cs" />
       <option value="$PROJECT_DIR$/BookShop.Core/Models/BookModel.cs" />
@@ -66,6 +67,16 @@
       <option value="$PROJECT_DIR$/BookShop.Core/Models/ShopModel.cs" />
       <option value="$PROJECT_DIR$/BookShop.ApplicationServices/BookShopService.cs" />
       <option value="$PROJECT_DIR$/BookShop.Infrastructure/EntityFramework/BookShopDbContextDesignTimeFactory.cs" />
+      <option value="$PROJECT_DIR$/BookShop.Tests/Class1.cs" />
+      <option value="$PROJECT_DIR$/BookShop.Tests/Bootstrap/CompositionRoot.cs" />
+      <option value="$PROJECT_DIR$/BookShop.Tests/appsettings.json" />
+      <option value="$PROJECT_DIR$/BookShop.Tests/Bootstrap/Registrations.cs" />
+      <option value="$PROJECT_DIR$/docker-compose.yml" />
+      <option value="$PROJECT_DIR$/BookShop.Tests/UnitTest1.cs" />
+      <option value="$PROJECT_DIR$/BookShop.Tests/BookShop.Tests.csproj" />
+      <option value="$PROJECT_DIR$/BookShop.Tests/Bootstrap/BaseTestFixture.cs" />
+      <option value="$PROJECT_DIR$/BookShop.Infrastructure/EntityFramework/Configurations/ShopConfiguration.cs" />
+      <option value="$PROJECT_DIR$/BookShop.Tests/BookShopServiceTests.cs" />
       <option value="$PROJECT_DIR$/BookShop.Infrastructure/EntityFramework/BookShopDbContext.cs" />
     </changedPaths>
   </component>
@@ -126,14 +137,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634375170185</updated>
-      <workItem from="1634375171069" duration="11666000" />
+      <workItem from="1634375171069" duration="11906000" />
+      <workItem from="1634981520549" duration="4799000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -145,6 +157,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

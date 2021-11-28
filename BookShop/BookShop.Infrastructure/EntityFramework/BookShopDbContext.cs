@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using BookShop.Core;
 using Microsoft.EntityFrameworkCore;
@@ -35,9 +36,15 @@ namespace BookShop.Infrastructure.EntityFramework
             return await Set<Shop>().ToListAsync();
         }
 
-        public Task<Shop> GetShop(Guid shopId)
+        public async Task<List<Shop>> GetShop(Guid shopId)
         {
-            return Set<Shop>().Include(x => x.Books).SingleOrDefaultAsync(shop => shop.Id == shopId);
+            var shops = Set<Shop>().Include(x => x.Books);
+            var shopsWithBigBalance = shops.Where(x => x.Balance > 100);
+            var shopsWithBigBalanceAndALotOfBooks = shopsWithBigBalance.Where(shop => shop.Books.Count > 500);
+            var receivedShops =  shopsWithBigBalanceAndALotOfBooks.AsEnumerable();
+            var receivedShopsBigBalance = receivedShops.Where(x => x.Balance > 100);
+            var receivedShopsWithBigBalanceAndALotOfBooks = receivedShopsBigBalance.Where(shop => shop.Books.Count > 500);
+            var finalList = receivedShopsWithBigBalanceAndALotOfBooks.ToList();
         }
      
         public async Task<List<Shop>> GetShops()

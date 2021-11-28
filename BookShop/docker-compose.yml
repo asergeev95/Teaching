@@ -1,0 +1,18 @@
+version: '3.5'
+services:
+  mssql:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    container_name: "mssql" 
+    ports: 
+      - "1433:1433"
+    environment:
+    - ACCEPT_EULA=Y
+    - SA_PASSWORD=2wsx2WSX
+    networks:
+    - dev-local
+    restart: always 
+
+networks:
+  dev-local:
+    driver: bridge
+    name: dev-local

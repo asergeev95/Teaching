@@ -1,5 +1,5 @@
 using System;
-using BookShop.ApplicationServices.Models;
+using BookShop.Core.Models;
 
 namespace BookShop.Core
 {

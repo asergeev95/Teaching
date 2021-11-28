@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using BookShop.ApplicationServices;
-using BookShop.ApplicationServices.Models;
 using BookShop.Core;
 using BookShop.Core.Models;
 using Microsoft.AspNetCore.Mvc;

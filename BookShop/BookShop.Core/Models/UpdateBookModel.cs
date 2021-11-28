@@ -1,4 +1,4 @@
-namespace BookShop.ApplicationServices.Models
+namespace BookShop.Core.Models
 {
     public class UpdateBookModel
     {

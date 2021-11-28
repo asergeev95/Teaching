@@ -8,4 +8,9 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BankBackend.ApplicationServices\BankBackend.ApplicationServices.csproj" />
+      <ProjectReference Include="..\BankBackend.Infrastructure\BankBackend.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>

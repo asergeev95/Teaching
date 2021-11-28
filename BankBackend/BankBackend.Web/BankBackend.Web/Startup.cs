@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BankBackend.ApplicationServices.Interfaces;
+using BankBackend.ApplicationServices.Services;
+using BankBackend.Infrastructure;
+using BankBackend.Infrastructure.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +30,8 @@ namespace BankBackend.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IAccountService, AccountService>();
+            services.AddScoped<IDatabase, BankDbContext>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

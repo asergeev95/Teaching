@@ -1,6 +1,6 @@
 using System;
 
-namespace BankBackend.Web.Models
+namespace BankBackend.ApplicationServices.Models
 {
     public class GetAccountHistoryModel
     {

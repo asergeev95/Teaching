@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="91165a53-5f89-4403-a151-7c043b9eb8af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BankBackend.Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BankBackend.Web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankBackend.Web.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.Web.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankBackend.Web/BankBackend.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.Web/BankBackend.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankBackend.Web/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankBackend.Web/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankBackend.Web/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.Web/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankBackend.Web/Models/AddAccountModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.ApplicationServices/Models/AddAccountModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankBackend.Web/Models/GetAccountHistoryModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.ApplicationServices/Models/GetAccountHistoryModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankBackend.Web/Models/UpdateAccountModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.ApplicationServices/Models/UpdateAccountModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankBackend.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.Web/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +25,27 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/BankBackend.Web/AccountController.cs" />
-      <option value="$PROJECT_DIR$/BankBackend.Web/Controllers/AccountController.cs" />
       <option value="$PROJECT_DIR$/BankBackend.Web/Models/AddAccountModel.cs" />
       <option value="$PROJECT_DIR$/BankBackend.Web/Models/UpdateAccountModel.cs" />
       <option value="$PROJECT_DIR$/BankBackend.Web/Models/GetAccountHistoryModel.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.ApplicationServices/Class1.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.ApplicationServices/AccountService.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.ApplicationServices/Models/GetAccountHistoryModel.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.Web/Requests/AddAccountRequest.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.ApplicationServices/Results/AddAccountResult.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.ApplicationServices/Interfaces/IAccountService.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.Web/Responses/AddAccountResponse.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.Web/Controllers/AccountController.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.Web/Requests/AddAccountRequestV2.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.Web/Controllers/AccountControllerV2.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.Infrastructure/Class1.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.ApplicationServices/Interfaces/IDatabase.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.Web/Startup.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.Core/Class1.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.Infrastructure/EntityFramework/IDatabase.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.Infrastructure/BankDbContext.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.Core/Entities/Account.cs" />
+      <option value="$PROJECT_DIR$/BankBackend.ApplicationServices/Services/AccountService.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21XaE56TbKVg6lj2m8urhhEVCrE" />
@@ -82,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638089770420</updated>
-      <workItem from="1638089773456" duration="300000" />
+      <workItem from="1638089773456" duration="4736000" />
     </task>
     <servers />
   </component>

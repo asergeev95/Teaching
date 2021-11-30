@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91165a53-5f89-4403-a151-7c043b9eb8af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BankBackend.Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BankBackend.Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankBackend.Web.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.Web.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankBackend.Web/BankBackend.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.Web/BankBackend.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankBackend.Web/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.Web/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankBackend.Web/Models/AddAccountModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.ApplicationServices/Models/AddAccountModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankBackend.Web/Models/GetAccountHistoryModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.ApplicationServices/Models/GetAccountHistoryModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankBackend.Web/Models/UpdateAccountModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.ApplicationServices/Models/UpdateAccountModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankBackend.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankBackend.Web/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BankBackend.Web/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +96,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638089770420</updated>
-      <workItem from="1638089773456" duration="4736000" />
+      <workItem from="1638089773456" duration="5012000" />
+      <workItem from="1638098168333" duration="571000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -122,6 +116,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

@@ -8,10 +8,15 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            var n = 5;
-            var intArray = new int[5];
-            FillArrayWithRandomNumbers(n, intArray);
-            DisplayArray(intArray);
+            // var n = 5;
+            // var intArray = new int[5];
+            // FillArrayWithRandomNumbers(n, intArray);
+            // DisplayArray(intArray);
+            var array = new[,]{{10, 5, 4, 7}, {12, 15, 20, 8}, {9, 3, 88, 25}, {50, 60, 70, 80}}; //TwoDimensionArrayHelper.Create2DArray(3, 3);
+            TwoDimensionArrayHelper.Display2DArray(array);
+            //TwoDimensionArrayHelper.Exercise41(array);
+            //TwoDimensionArrayHelper.Exercise51(array);
+            TwoDimensionArrayHelper.Exercise54(array);
 
             //Exercise19(n, intArray);
             //Exercise18(n, intArray);
